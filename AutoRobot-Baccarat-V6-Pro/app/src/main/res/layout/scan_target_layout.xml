@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scanTargetRoot"
+    android:layout_width="250dp"
+    android:layout_height="120dp"
+    android:background="@drawable/bg_scan_target">
+
+    <TextView
+        android:id="@+id/tvTargetLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:background="#CC050811"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="2dp"
+        android:text="KHUNG BẮT CẦU (KÉO &amp; CHỈNH GÓC)"
+        android:textColor="#00FF88"
+        android:textSize="9sp"
+        android:textStyle="bold" />
+
+    <!-- Bottom-Right Corner Resize Handle -->
+    <TextView
+        android:id="@+id/btnResizeHandle"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_gravity="bottom|end"
+        android:background="#CC00F0FF"
+        android:gravity="center"
+        android:text="↘"
+        android:textColor="#050811"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</FrameLayout>
